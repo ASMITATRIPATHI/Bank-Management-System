@@ -26,7 +26,7 @@ public class SignupOne extends JFrame {
         
         JLabel name = new JLabel("Name: ");
         name.setFont(new Font("Arial", Font.BOLD, 20));
-        name.setBounds(100, 120, 400, 30);
+        name.setBounds(100, 140, 100, 30);
         add(name);
         JTextField nameText = new JTextField();
         nameText.setFont(new Font("Arial", Font.BOLD, 20));
@@ -35,27 +35,31 @@ public class SignupOne extends JFrame {
         
         JLabel fatherName = new JLabel("Father's Name: ");
         fatherName.setFont(new Font("Arial", Font.BOLD, 20));
-        fatherName.setBounds(100, 170, 400, 50);
+        fatherName.setBounds(100, 190, 200, 30);
         add(fatherName);
+        JTextField fatherNameText = new JTextField();
+        fatherNameText.setFont(new Font("Arial", Font.BOLD, 20));
+        fatherNameText.setBounds(300, 180, 400, 30);
+        add(fatherNameText);
         
         JLabel dateOfBirth = new JLabel("Date of Birth: ");
         dateOfBirth.setFont(new Font("Arial", Font.BOLD, 20));
-        dateOfBirth.setBounds(100, 220, 400, 50);
+        dateOfBirth.setBounds(100, 240, 200, 30);
         add(dateOfBirth);
         
         JLabel gender = new JLabel("Gender: ");
         gender.setFont(new Font("Arial", Font.BOLD, 20));
-        gender.setBounds(100, 270, 400, 50);
+        gender.setBounds(100, 290, 200, 30);
         add(gender);
         
         JLabel emailID = new JLabel("Email Address: ");
         emailID.setFont(new Font("Arial", Font.BOLD, 20));
-        emailID.setBounds(100, 320, 400, 50);
+        emailID.setBounds(100, 340, 200, 30);
         add(emailID);
         
         JLabel maritalStat = new JLabel("Marital Status: ");
         maritalStat.setFont(new Font("Arial", Font.BOLD, 20));
-        maritalStat.setBounds(100, 370, 400, 50);
+        maritalStat.setBounds(100, 390, 200, 30);
         add(maritalStat);
         
         JLabel address = new JLabel("Address: ");
