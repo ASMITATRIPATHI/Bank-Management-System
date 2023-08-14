@@ -46,6 +46,11 @@ public class SignupOne extends JFrame {
         dateOfBirth.setFont(new Font("Arial", Font.BOLD, 20));
         dateOfBirth.setBounds(100, 240, 200, 30);
         add(dateOfBirth);
+        JTextField dateOfBirthText = new JTextField();
+        dateOfBirthText.setFont(new Font("Arial", Font.BOLD, 20));
+        dateOfBirthText.setBounds(300, 180, 400, 30);
+        add(dateOfBirthText);
+        
         
         JLabel gender = new JLabel("Gender: ");
         gender.setFont(new Font("Arial", Font.BOLD, 20));
