@@ -56,6 +56,11 @@ public class SignupOne extends JFrame {
         gender.setFont(new Font("Arial", Font.BOLD, 20));
         gender.setBounds(100, 290, 200, 30);
         add(gender);
+        JTextField genderText = new JTextField();
+        genderText.setFont(new Font("Arial", Font.BOLD, 20));
+        genderText.setBounds(300, 180, 400, 30);
+        add(genderText);
+        
         
         JLabel emailID = new JLabel("Email Address: ");
         emailID.setFont(new Font("Arial", Font.BOLD, 20));
